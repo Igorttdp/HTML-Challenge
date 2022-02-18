@@ -1,0 +1,160 @@
+body {
+    background-image: url(../assets/background.jpg);
+    font-family: 'Source Sans Pro', sans-serif;
+    color:white;
+    text-align:center;
+    margin: 0;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.orange {
+    color: #fe7606;
+}
+
+.white {
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 8rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    margin: 5px 0 0;
+}
+
+h6 {
+    font-size: 18px;
+    margin: 0;
+}
+
+hr {
+    opacity: 0.5;
+}
+
+/* Title */
+
+.title {
+    margin-top: 150px;
+    padding: 0 15%;
+}
+
+#h1-title {
+    font-size: 4.5rem;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+#p-title {
+    margin: 1rem 230px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.6rem;
+}
+
+/* Cards */
+
+.cards {
+    margin-top: 60px;
+}
+
+.card1, .card2, .card3 {
+    width: 300px;
+    height: 361px;
+    padding: 30px 30px 60px;
+    display: inline-block;
+    margin: 0 15px;
+    text-align: left;
+}
+
+.card1 {
+    background-color: white;
+    color: black;
+}
+
+.card2 {
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+}
+
+.card3 {
+    background-color: #fe7606;
+}
+
+#p-cards {
+    line-height: 1.6rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+#lm {
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    border-bottom: solid #fe7606;
+}
+
+.bw {
+    border-bottom: solid #FFFFFF;
+}
+
+#lm:hover {
+    border-bottom: none;
+}
+
+/* Footer */
+
+footer {
+    margin: 0;
+}
+
+/* Black Section */
+.black-section {
+    background-color: black;
+    padding: 3% 15% 1%;
+    margin: 12rem 0 0;
+}
+
+.content1, .content2, .content3 {
+    display: inline-block;
+    text-align: left;
+    padding: 20px 30px;
+    margin: 0 100px;
+}
+
+.content1 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.content3 {
+    margin-right: 0;
+}
+
+/* Gray Section */
+.gray-section {
+    background-color: #333333;
+    padding: 1% 10%;
+}
+
+#p-footer {
+    font-size: 0.875rem;
+    margin: 2rem 0 1rem;
+}
+
+.content-align {
+    margin-right: 195px;
+}
